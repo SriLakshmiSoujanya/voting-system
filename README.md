@@ -106,6 +106,21 @@ voting-system/
 └── voting_system.py   # Main program
 ```
 
+## Notes
+
+| Category | Details |
+|----------|---------|
+| **Programming Language** | Python 3.6+ |
+| **Libraries Used** | None — built entirely with Python standard library (`sys`, `input/output` only) |
+| **External Dependencies** | None — no `pip install` required |
+| **Lines of Code** | ~130 lines |
+| **Development Time** | ~25 minutes |
+| **Platform** | Replit (runs on any OS with Python installed) |
+| **Interface Type** | CLI (Command-Line Interface) — runs in terminal/shell |
+| **Python Concepts Used** | Functions, loops, conditionals, lists, dictionaries, sets, f-strings, input validation |
+| **Data Storage** | In-memory only (no files or databases) — data resets on each run |
+| **Error Handling** | Input validation for age (non-numeric), party ID (out of range), empty voter ID |
+
 ## License
 
 This project is open source and free to use.
